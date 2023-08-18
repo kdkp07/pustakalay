@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'librarymanagement.urls'
+ROOT_URLCONF = 'Pustakalay.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'librarymanagement.wsgi.application'
+WSGI_APPLICATION = 'Pustakalay.wsgi.application'
 
 
 # Database
